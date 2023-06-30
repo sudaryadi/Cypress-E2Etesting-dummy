@@ -3,3 +3,8 @@ describe('My First Test', () => {
       expect(true).to.equal(true)
     })
   })
+  const { defineConfig } = require('cypress')
+
+module.exports = defineConfig({
+  projectId: 'a7bq2k',
+})
